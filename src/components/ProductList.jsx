@@ -3,118 +3,118 @@ import ProductCard from './ProductCard';
 import './ProductList.css';
 
 // Import Images
-import img1 from '../components/Images/download.jpg';
-import img2 from '../components/Images/OIP.jpg';
-import img3 from '../components/Images/OIPa.jpg';
-import img4 from '../components/Images/OIPc.jpg';
-import img5 from '../components/Images/OIPb.jpg';
-import img6 from '../components/Images/OIPd.jpg';
-import img7 from '../components/Images/OIPe.jpg';
-import img8 from '../components/Images/R.jpg';
-import img9 from '../components/Images/OIPf.jpg';
-import img10 from '../components/Images/Ra.jpg';
-import img11 from '../components/Images/OIPg.jpg';
-import img12 from '../components/Images/OIPh.jpg';
-import img13 from '../components/Images/OIPi.jpg';
-import img14 from '../components/Images/OIPj.jpg';
-import img15 from '../components/Images/OIPk.jpg';
-import img16 from '../components/Images/OIPl.jpg';
+import img1 from '../components/Images/AfricanViolet.jpg';
+import img2 from '../components/Images/Aloe.jpg';
+import img3 from '../components/Images/Amaryllis.jpg';
+import img4 from '../components/Images/Anthurium.jpg';
+import img5 from '../components/Images/ArrowheadVine.jpg';
+import img6 from '../components/Images/AsparagusFern.jpg';
+import img7 from '../components/Images/AvocadoTree.jpg';
+import img8 from '../components/Images/BabyJadePlant.jpg';
+import img9 from '../components/Images/BirdsNestFern.jpg';
+import img10 from '../components/Images/BananaLeafFig.jpg';
+import img11 from '../components/Images/Bromeliad.jpg';
+import img12 from '../components/Images/BurrosTail.jpg';
+import img13 from '../components/Images/ChineseCroton.jpg';
+import img14 from '../components/Images/ChineseEvergreen.jpg';
+import img15 from '../components/Images/ChristmasCactus.jpg';
+import img16 from '../components/Images/Coleus.jpg';
 
 // Mock product data
 const products = [
   {
     id: 1,
-    title: 'Wireless Headphones',
-    price: 1199.99,
+    title: 'African Violet',
+    price: 299.99,
     image: img1
   },
   {
     id: 2,
-    title: 'Smartwatch',
-    price: 1149.99,
+    title: 'Aloe',
+    price: 149.99,
     image: img2
   },
   {
     id: 3,
-    title: 'Bluetooth Speaker',
-    price: 1579.99,
+    title: 'Amaryllis',
+    price: 579.99,
     image: img3
   },
   {
     id: 4,
-    title: 'Portable Charger',
-    price: 1229.99,
+    title: 'Anthurium',
+    price: 229.99,
     image: img4
   },
   {
     id: 5,
-    title: 'Gaming Mouse',
-    price: 1949.99,
+    title: 'Arrowhead Vine',
+    price: 949.99,
     image: img5
   },
   {
     id: 6,
-    title: 'Mechanical Keyboard',
-    price: 2489.99,
+    title: 'Asparagus Fern',
+    price: 489.99,
     image: img6
   },
   {
     id: 7,
-    title: 'Laptop Stand',
+    title: 'Avocado Tree',
     price: 639.99,
     image: img7
   },
   {
     id: 8,
-    title: 'USB-C Hub',
+    title: 'Baby Jade Plant',
     price: 119.99,
     image: img8
   },
   {
     id: 9,
-    title: 'Phone Case',
+    title: 'Bird\'s Nest Fern',
     price: 214.99,
     image: img9
   },
   {
     id: 10,
-    title: 'Screen Protector',
+    title: 'Banana Leaf Fig',
     price: 109.99,
     image: img10
   },
   {
     id: 11,
-    title: 'Wireless Charger',
-    price: 2524.99,
+    title: 'Bromeliad',
+    price: 524.99,
     image: img11
   },
   {
     id: 12,
-    title: 'Smartphone Tripod',
+    title: 'Burro\'s Tail',
     price: 1034.99,
     image: img12
   },
   {
     id: 13,
-    title: 'Action Camera',
-    price: 9199.99,
+    title: 'Chinese Croton',
+    price: 919.99,
     image: img13
   },
   {
     id: 14,
-    title: 'VR Headset',
-    price: 5299.99,
+    title: 'Chinese Evergreen',
+    price: 599.99,
     image: img14
   },
   {
     id: 15,
-    title: 'Smart Thermostat',
-    price: 4129.99,
+    title: 'Christmas Cactus',
+    price: 429.99,
     image: img15
   },
   {
     id: 16,
-    title: 'Wireless Earbuds',
+    title: 'Coleus',
     price: 1279.99,
     image: img16
   }
