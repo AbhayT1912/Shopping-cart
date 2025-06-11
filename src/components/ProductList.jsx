@@ -3,22 +3,22 @@ import ProductCard from './ProductCard';
 import './ProductList.css';
 
 // Import Images
-import img1 from '../components/Images/AfricanViolet.jpg';
-import img2 from '../components/Images/Aloe.jpg';
-import img3 from '../components/Images/Amaryllis.jpg';
-import img4 from '../components/Images/Anthurium.jpg';
-import img5 from '../components/Images/ArrowheadVine.jpg';
-import img6 from '../components/Images/AsparagusFern.jpg';
-import img7 from '../components/Images/AvocadoTree.jpg';
-import img8 from '../components/Images/BabyJadePlant.jpg';
-import img9 from '../components/Images/BirdsNestFern.jpg';
-import img10 from '../components/Images/BananaLeafFig.jpg';
-import img11 from '../components/Images/Bromeliad.jpg';
-import img12 from '../components/Images/BurrosTail.jpg';
-import img13 from '../components/Images/ChineseCroton.jpg';
-import img14 from '../components/Images/ChineseEvergreen.jpg';
-import img15 from '../components/Images/ChristmasCactus.jpg';
-import img16 from '../components/Images/Coleus.jpg';
+import img1 from '../components/Images/African-violet.jpg.jpg';
+import img2 from '../components/Images/Aloe-vera.jpg.jpg';
+import img3 from '../components/Images/Amaryllis.jpg.jpg';
+import img4 from '../components/Images/Anthurium-andraeanum-2.jpg.jpg';
+import img5 from '../components/Images/Syngonium-podophyllum.jpg.jpg';
+import img6 from '../components/Images/Asparagus-aethiopicus.jpg.jpg';
+import img7 from '../components/Images/Persea-americana.jpg.jpg';
+import img8 from '../components/Images/Portulacaria-afra.jpg.jpg';
+import img9 from '../components/Images/Asplenium-nidus.jpg.jpg';
+import img10 from '../components/Images/Ficus-alii-2.jpg.jpg';
+import img11 from '../components/Images/Guzmania-Rana.jpg.jpg';
+import img12 from '../components/Images/Sedum-morganianum-2.jpg.jpg';
+import img13 from '../components/Images/Excoecaria-cochinchinensis.jpg.jpg';
+import img14 from '../components/Images/Aglaonema-purple.jpg.jpg';
+import img15 from '../components/Images/Schlumbergera-truncata.jpg.jpg';
+import img16 from '../components/Images/Solenostemon-scutellarioides.jpg.jpg';
 
 // Mock product data
 const products = [
@@ -121,6 +121,11 @@ const products = [
 ];
 
 const ProductList = ({ onAddToCart }) => {
+  if (typeof onAddToCart !== 'function') {
+    // Provide a fallback to avoid runtime error if onAddToCart is not passed
+    console.warn('onAddToCart prop is missing or not a function.');
+    return null;
+  }
   return (
     <section className='product-list'>
       <h2>Featured Products</h2>
